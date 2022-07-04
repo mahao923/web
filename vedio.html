@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>了解更多</title>
+    <style>
+        .mainbox {
+            position: relative;
+            height: 979px;
+            width: 1300px;
+            margin: 0px auto;
+            /* line-height: 40px;
+            background-color: #47915d;
+            background-color: black; */
+            background-image: url(images/images/tv_02.png);
+            overflow: hidden;
+        }
+        .mainbox div{
+            position: absolute;
+            width: 720px;
+            height: 590px;
+            top: 150px;
+            left: 145px;
+            border-radius: 50px;
+            background-color: rgba(209, 41, 41, 0.3);
+            overflow: hidden;
+            /* z-index: -1; */
+        }
+    </style>
+</head>
+
+<body>
+<div class="mainbox">
+    <div>
+        <video controls="controls" height="100%">
+            <source src="vedio/四川美食.mp4" type="video/mp4">
+            <source src="movie.ogg" type="video/ogg">
+            <source src="movie.webm" type="video/webm">
+            <object data="movie.mp4"controls="controls" height="100%">
+              <embed src="vedio/四川美食.mp4" controls="controls" height="100%">
+            </object>
+          </video>
+        <!-- <embed src="vedio/四川美食.mp4" type="vedio/webm" controls="controls" height="100%"> -->
+    </div>
+    <a href="index.html" class="shouye">首页</a>
+</div>
+</body>
+
+</html>

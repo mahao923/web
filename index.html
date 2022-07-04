@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="lunbo.css" />
+  <script src="lunbo.js" type="text/javascript"></script>
+  <title>四川</title>
+</head>
+<style>
+  /* 把所有标签内外边距清零 */
+  * {
+    /* box-sizing: border-box; */
+    margin: 0px;
+    padding: 0px;
+  }
+
+  /* 去掉丽、的小圆点 */
+  li {
+    list-style: none;
+  }
+
+  body {
+    background-color: #fff;
+    text-align: center;
+    font: 14px/1.5 Microsoft Yahei, arial "宋体";
+    color: rgb(65, 65, 65)
+  }
+
+  img {
+    vertical-align: middle;
+  }
+
+  .topnav {
+    /* margin: 0px 150px; */
+    height: 45px;
+    width: 1300px;
+    margin: 0px auto;
+    line-height: 40px;
+    background-color: #47915d;;
+    overflow: hidden;
+    /*清除浮动，否则会父级坍塌*/
+  }
+
+  .topnav ul {
+    list-style-type: none;
+  }
+
+  .topnav ul li a {
+    float: left;
+    padding: 4px 25px;
+    target: _self;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  .topnav ul li a img{
+    float: left;
+    padding: 0px 5px 4px 5px;
+    target: _self;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
+  .topnav ul li a:hover {
+    background-color: rgb(121, 121, 225);
+  }
+
+  .topnav ul li a:active {
+    background-color: #67aa69;
+  }
+
+  .navboth {
+    position: relative;
+    width: 1300px;
+    height: 500px;
+    margin: 0px auto;
+    /* margin: 0px 150px; */
+    background-color: skyblue;
+    background-color: rgb(182, 221, 218);
+    background-image: url(bg1.jpg);
+  }
+
+  .navleft {
+    float: left;
+    width: 280px;
+    height: 500px;
+    margin: 0px 10px 0px 10px;
+    background-color: rgb(182, 221, 218);
+    background-image: url(bg1.jpg);
+  }
+
+  .navright {
+    float: left;
+    /* position: relative; */
+    width: 1000px;
+    height: 500px;
+    margin: 0px;
+    background-color: #67aa69;
+  }
+
+  .ft {
+
+    text-align: left;
+    text-indent: 2em;
+  }
+  .topict{
+    width: 1300px;
+    height: 150px;
+    margin: 0px auto;
+    background-color: white;
+    /* background-image: url(images/taohua.png); */
+  }
+  .topict img{
+    width: 100%;
+    height: 100%;
+  }
+ 
+</style>
+
+<body>
+  <div class="topict">
+    <img src="images/images/tao.png" alt="">
+    <!-- 主页面最顶上的图片设计 -->
+  </div>
+  <div class="topnav">
+    <ul>
+      <li><a href="#数学181GaoLei"><img src="images/校徽.png" alt="school badge" width="40px"></a></li>
+      <li><a href="index.html" >首页</a></li>
+      <li><a href="circumstance.html">景点</a></li>
+      <li><a href="food/food.html">美食</a></li>
+      <li><a href="accommodation.html">住宿</a></li>
+      <li><a href="vedio.html">了解更多</a></li>
+      <li><a href="https://blog.csdn.net/qq_57357292/article/details/125585107?spm=1001.2014.3001.5501">课程结业报告</a></li>
+    </ul>
+  </div>
+  <div class="navboth">
+    <div class="navleft">
+      <h3 font="white 20px arial">简介</h3>
+      <p class="ft">
+        四川，简称“川”或“蜀”，省会——成都，位于中国大陆西南腹地，自古就有“天府之国”之美誉，是中国西部门户，大熊猫故乡。四川居住着彝族、藏族、回族、汉族、羌族等民族，是中国第二大藏区、唯一的羌族聚居区、最大的彝族聚居地。旅游资源极为丰富，历来有天下山水在于蜀之说，并有“峨眉天下秀，九寨天下奇，剑门天下险，青城天下幽”之誉。
+      </p>
+      <p class="ft">
+        被誉为“国宝”的珍稀动物大熊猫，85%栖息在四川西北的崇山峻岭之中，四川因此被誉为“大熊猫的故乡”。憨态可掬的大熊猫，是人们最喜爱的珍稀动之一，是世界野生动物保护基金会的标志动物。全国目前有大熊猫自然保护区18个，四川占16个，成都东北建有“大熊猫繁殖研究基地”；距成都136公里的卧龙大熊猫自然保护区是中国三大自然保护区之一，世界野生动物保护基金会在此建有“大熊猫研究中心”。
+      </p>
+    </div>
+    <div class="navright">
+      <div id="container">
+        <div id="list" style="left: -1350px;">
+            <img src="images/picture5.jpg"/>
+            <img src="images/picture2.jpg"/>
+            <img src="images/picture4.jpg"/>
+            <img src="images/picture5.jpg">
+            <img src="images/picture2.jpg"/></div>
+        <div id="buttons">
+            <span index="1"></span>
+            <span index="2"></span>
+            <span index="3"></span>
+        </div>
+        <a href="javascript:;" id="prev" class="arrow" style="font-size:60px; text-align:center;">&lt</a>
+        <a href="javascript:;" id="next" class="arrow" style="font-size:60px; text-align:center;">&gt</a></div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>
